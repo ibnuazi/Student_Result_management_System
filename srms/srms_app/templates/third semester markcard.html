@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">STATEMENT OF MARKS</h1>
+        <h6>Name of the candidate:{{a.firstname}}{{a.lastname}}</h6>
+        <h6>Register Number:{{a.register_num}}</h6><br>
+        <p style="text-align: center;"><b>Third Semester, Bachelor of Computer Application</b></p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>SI.No</th>
+                    <th>Course</th>
+                    <th>Mark</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>Arabic</th>
+                    <th>{{b.arabic}}</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>English</th>
+                    <th>{{b.english}}</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>Object Oriented Programming using C++</th>
+                    <th>{{b.Cpp}}</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>Financial Accounting and Management</th>
+                    <th>{{b.Accounting}}</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th>Operating System</th>
+                    <th>{{b.OperatingSystem}}</th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th>C++ Lab</th>
+                    <th>{{b.Cpp_Lab}}</th>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <th>Accounting Package Lab</th>
+                    <th>{{b.Accounting_Lab}}</th>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <th>Culture , Diversity & Society</th>
+                    <th>{{b.CDS}}</th>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
